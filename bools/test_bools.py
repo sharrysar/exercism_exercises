@@ -15,3 +15,4 @@ def test_isosceles(sides, expected):
 def test_scalene(sides, expected):
     result = triangle.scalene(sides)
     assert result == expected
+    

@@ -9,3 +9,4 @@ def test_square(num, expected_ans):
 @pytest.mark.parametrize("num, expected_ans", [(153, True), (154, False), (9, True)])
 def test_armstrong_nums(num, expected_ans):
     assert is_armstrong_number(num) == expected_ans
+    
